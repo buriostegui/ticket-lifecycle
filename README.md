@@ -2,20 +2,10 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
+<h1>osTicket - Ticket Lifecycle </h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
 
 <h2>Ticket Lifecycle Stages</h2>
 
@@ -26,26 +16,30 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Ticket Creation with Help Topic:
+- Ken is creating a ticket with the help topic "Business Critical Outage."
+- This topic is chosen because customers are experiencing issues accessing mobile banking.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+![image](https://github.com/buriostegui/ticket-lifecycle/assets/148411510/cf64f4e2-c6c6-4e02-ac22-f33eb60ec84a)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Live Ticket Management:
+- Agents can view live tickets within the agent panel.
+- Queue managers are responsible for assigning priority tickets to the appropriate agents and ensuring the correct Service Level Agreements (SLAs) are applied.
+
+![image](https://github.com/buriostegui/ticket-lifecycle/assets/148411510/bc184072-9849-4e00-adac-cad5d9c13ef8)
+
+Priority and SLA Assignment:
+- The priority level for the ticket is set to "Emergency" in this example.
+- This choice is made because the issue has the potential to significantly impact a section of the business.
+- The SLA plan is adjusted, and the ticket is assigned to a top-level technician.
+- Note that in some ticketing systems, customers may have the option to set their own SLA plans for their tickets.
+
+![image](https://github.com/buriostegui/ticket-lifecycle/assets/148411510/af51987c-a8b4-4c1c-a1ca-7f493cc41a96)
+
+Resolution and closting ticket:
+- Technician resolves the issue and posts the reply.
+- The ticket now appears in the "Closed" section under tickets
+
+![image](https://github.com/buriostegui/ticket-lifecycle/assets/148411510/4646a53b-cc8f-432c-b56c-0f3ea65903e0)
+
+These steps involve ticket creation, management, and the assignment of priorities and SLAs in response to critical issues, ensuring efficient handling and resolution.
